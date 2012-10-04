@@ -672,7 +672,7 @@ $(document).ready(function(){
 
             //outer_circle.animate({transform:('s1.3')}, 2000);
 
-            $('svg').delay(500).animate({marginTop:'220px', scale:'1.3'}, {
+            $('svg').delay(500).animate({marginTop:'220px'}, {
                                             duration: 500,
                                             complete: function() {
 
@@ -1443,7 +1443,7 @@ $(document).ready(function(){
             
         });*/
         
-        operations.touchend(function(e){
+        operations.click(function(e){
             //if(disableClicks == false){
                                 //alert(startX + ' - ' +curX);
                                 
@@ -1572,16 +1572,16 @@ $(document).ready(function(){
                                         complete: function() {
                                             $(this).css('display','none');
 
-                                            $('svg').animate({marginTop:'0px'}, {
+                                            $('svg').animate({marginTop:'220px'}, {
                                                     duration: 500,
                                                     complete: function() {
 
-                                                        $('svg').animate({scale:1.5},{
+                                                        /*$('svg').animate({scale:1.5},{
                                                                 duration:500,
                                                                 complete: function() {
 
                                                                 }
-                                                        });
+                                                        });*/
 
                                                     }
                                             });
@@ -2412,7 +2412,7 @@ $(document).ready(function(){
                 duration: 10,
                 complete: function() {
 
-                    $('svg').animate({marginTop:'0px',scale:'1'}, {
+                    $('svg').animate({marginTop:'0px'}, {
                             duration: 1000,
                             complete: function() {
 
@@ -3004,7 +3004,7 @@ $('#skip-to-film').click(function(){
 
 
 
-                    $('svg').animate({marginTop:'0px',scale:'1'}, {
+                    $('svg').animate({marginTop:'0px'}, {
                                     duration: 1000,
                                     complete: function() {
 
@@ -3100,7 +3100,7 @@ $('#skip-to-film').click(function(){
                                     duration: 1000,
                                     complete: function() {
                                         
-                                    $('svg').animate({marginTop:'0px',scale:'1'}, {
+                                    $('svg').animate({marginTop:'0px'}, {
                                                     duration: 1000,
                                                     complete: function() {
                                                         

@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>See yourself spinning and spinning and spinning and spinning.</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/master.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/layout.css" />
+	<script src="javascripts/raphael-min.js" type="text/javascript"></script>
+	<script src="javascripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+	<script src="javascripts/application.js" type="text/javascript"></script>
+        <script src="javascripts/jquery-css-transform.js" type="text/javascript"></script>
+        <script src="javascripts/jquery-animate-css-rotate-scale.js" type="text/javascript"></script>
+        <script src="javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="logo">
+    <img id="skip-intro" src="images/logo.png" alt="logo" />
+</div>
+
+   
+    
+<div id="container">
+    <div id="puts"></div>
+    <div id="intro">
+        <div id="intro-slide-1">
+            <div class="left-bar" style="width:300px;">
+                <div class="bar-top" style="width:6px;">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle" style="width:6px;"></div>
+                <div class="bar-bottom" style="width:6px;">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="content">
+                <p>Where do you see yourself?</p>
+                
+                <a id="explore" class="btn" onclick="return false;" data-remote="true" class="btn" href="#">EXPLORE</a>
+            </div>
+            <div class="right-bar" style="width:6px;">
+                <div class="bar-top" style="width:6px;">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle" style="width:6px"></div>
+                <div class="bar-bottom" style="width:6px">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="intro-slide-2">
+            <div class="left-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="content">
+                <p>
+                    Where in the Investment Bank could your 
+                    individual strengths develop and grow? 
+                    That depends on what kind of individual 
+                    you are.
+                </p>
+            </div>
+            <div class="right-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="intro-slide-3">
+            <div class="left-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="content">
+                <p>
+                    With over 300 years of history and expertise<br/>
+                    in banking, we operate in over 50 countries <br/>
+                    and employ over 140,000 people. We employ <br/>
+                    25,000 unique individuals across 30 countries<br/> 
+                    in many different business areas. This tool is <br/>
+                    designed to help you to:
+                </p>
+            </div>
+            <div class="right-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="intro-slide-4">
+            <div class="left-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="content">
+                <img id="unique-asset" src="images/intro-circle.svg" alt="Unique Asset" />
+                <p>
+                    See yourself <br/>
+                    as a <br/>
+                    unique asset
+                </p>
+            </div>
+            <div class="right-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="intro-slide-5">
+            <div class="left-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="content">
+                <p>
+                    We all have different strengths and abilities. <br/>
+                    The unique qualities you bring to Barclays will <br/>
+                    help you make a difference here. 
+                </p>
+            </div>
+            <div class="right-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="intro-slide-6">
+            <div class="left-bar" style="height:291px;">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="content">
+                <img id="but-where" src="images/intro-circle.svg" alt="Unique Asset" />
+                <p>
+                    But where?
+                </p>
+            </div>
+            <div class="right-bar" style="height:291px;">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="intro-slide-7">
+            <div class="left-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="content">
+                <p>
+                    What area of our organisation is the best fit <br/>
+                    for you? We can guide your decision, but we'd <br/>
+                    like you to choose where you apply to join us. <br/>
+                    When you meet our business representatives <br/>
+                    you’ll find out more, but first, take a look at <br/>
+                    our professional profiler and start defining <br/>
+                    your ideal direction. 
+                </p>
+                
+                <a id="start" class="btn" onclick="return false;" data-remote="true" class="btn" href="#">START</a>
+            </div>
+            <div class="right-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    
+    <div id="finance-slides" class="middle-section">
+        <div class="screen-1 screen">
+            <div class="left-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="text">
+                <p>
+                Structuring Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet leo vitae est viverra 
+                ornare sed in sem. Aliquam ultricies ultrices venenatis. Duis ac tellus enim, quis porta risus.
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                Cras auctor, magna eget malesuada molestie, velit quam molestie sem, sit amet pharetra nulla 
+                dolor at tellus. 
+                <img style="margin-left:280px;" src="images/right-arrow.jpg" class="slide-forward" />
+                </p>
+                
+            </div>
+            <div class="right-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+        </div>
+
+        <div class="screen-2 screen">
+            <div class="left-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="text">
+                <p>Finance</p>
+            </div>
+            <div class="right-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+        </div>
+
+        <div class="screen-3 screen">
+            <div class="left-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet leo vitae est viverra 
+                    ornare sed in sem. Aliquam ultricies ultrices venenatis. Duis ac tellus enim, quis porta risus.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                    Cras auctor, magna eget malesuada molestie, velit quam molestie sem, sit amet pharetra nulla 
+                    dolor at tellus. 
+                </p>
+            </div>
+            <div class="right-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+        </div>
+
+        <div class="screen-4 screen">
+            <div class="left-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+            <div class="text">
+                <p>Finance</p>
+            </div>
+            <div class="right-bar">
+                <div class="bar-top">
+                    <img src="images/bar-top.png" alt="blue bar" />
+                </div>
+                <div class="bar-middle"></div>
+                <div class="bar-bottom">
+                    <img src="images/bar-bottom.png" alt="blue bar" />
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <img id="see-yourself-working-in" src="images/see-yourself-working-in.svg" alt="See Yourself Working in" />
+    
+    
+    
+    <img src="images/finance.png" alt="Finance Text" id="finance-text" class="segment-text" style="width: 260px; z-index:80; left:33.5%; top:20px;" />  
+    <a id="finance-more-button" class="btn segment-more-button" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+    
+    <img src="images/sales.png" alt="Sales Text" id="sales-text" class="segment-text" style="z-index: 80; top: 20px; width: 280px; left: 32.8%;" /> 
+    <a id="sales-more-button" class="btn segment-more-button" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+    
+    <img src="images/compliance.png" alt="Compliance Text" id="compliance-text" class="segment-text" style="z-index: 80; top: 20px; width: 249px; left: 34%;" /> 
+    <a id="compliance-more-button" class="btn segment-more-button" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+    
+    <img src="images/research.png" alt="Research Text" id="research-text" class="segment-text" style="z-index: 80; top: 20px; width: 276px; left: 32.5%;" /> 
+    <a id="research-more-button" class="btn segment-more-button" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+    
+    <img src="images/trading.png" alt="trading Text" id="trading-text" class="segment-text" style="z-index: 80; top: 20px;  width: 243px; left: 34.6%;" /> 
+    <a id="trading-more-button" class="btn segment-more-button" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+    
+    <img src="images/technology.png" alt="technology Text" id="technology-text" class="segment-text" style="width: 260px; z-index:80; left:33.5%; top:20px;" /> 
+    <a id="technology-more-button" class="btn segment-more-button" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+    
+    <img src="images/treasury.png" alt="treasury Text" id="treasury-text" class="segment-text" style="z-index: 80; top: 20px;  width: 235px; left: 34.5%;" /> 
+    <a id="treasury-more-button" class="btn segment-more-button" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+    
+    <img src="images/prime.png" alt="prime Text" id="prime-text" class="segment-text" style="z-index: 80; top: 20px;  width: 293px; left: 31.5%;" /> 
+    <a id="prime-more-button" class="btn segment-more-button" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+    
+    <img src="images/structuring.png" alt="structuring Text" id="structuring-text" class="segment-text" style="width: 260px; z-index:80; left:33.5%; top:20px;" /> 
+    <a id="structuring-more-button" class="btn segment-more-button" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+    
+    <img src="images/risk.png" alt="risk Text" id="risk-text" class="segment-text" style="z-index: 80; top: 20px; width: 200px; left: 36.5%;" /> 
+    <a id="risk-more-button" style="top:333px;" class="btn segment-more-button" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+    
+    <img src="images/operations.png" alt="operations Text" id="operations-text" class="segment-text" style="z-index: 80; top: 20px;  width: 246px; left: 34.5%;" /> 
+    <a id="operations-more-button" class="btn segment-more-button" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+    
+    <img src="images/event.png" alt="event Text" id="event-text" class="segment-text" style="z-index: 80; top: 20px; width: 307px; left: 31.5%;" /> 
+    <a id="event-more-button" class="btn segment-more-button" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+    
+    <img src="images/investment.png" alt="investment Text" id="investment-text" class="segment-text" style="width: 260px; z-index:80; left:33.5%; top:20px;" /> 
+    <a id="investment-more-button" class="btn segment-more-button" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+    
+    <img src="images/quantitive.png" alt="quantitive Text" id="quantitive-text" class="segment-text" style="z-index: 80; top: 20px; width: 218px; left: 35.5%;" /> 
+    <a id="quantitive-more-button" class="btn segment-more-button" style="" onclick="return false;" data-remote="true" class="btn" href="#">MORE</a>
+
+    
+    <img id="top-segment-image" class="top-segment-image2" src="images/arc-sector.svg" style="-moz-transform: rotate(337deg) scale(0.1); float: left; position: absolute; left: 33.9%; top: 300px;z-index: 10; display:none;" alt="sector" />
+
+    <div id="finance-more" class="more-text"></div>
+    <img id="white-circle" style="left:439px;" src="images/white-circle-inner.svg" alt="White Circle" />
+    
+    <p id="info-box-text">
+        Touch and drag to spin the wheel. Tap the outer wheel to select
+        a business area, access more information and view video blogs
+    </p>
+    
+    <img id="info-box" alt="Info Box" src="images/info-box.png">
+    
+</div>
+<img id="go-back" src="images/refresh.png" alt="Go back" />
+<input type="hidden" name="slide" id="slide-number" value="1" />
+  <script src="javascripts/functions.js" type="text/javascript"></script>
+</body>
+</html>

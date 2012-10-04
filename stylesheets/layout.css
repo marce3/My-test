@@ -1,0 +1,171 @@
+@font-face {font-family: 'Myriad Pro'; src: url('../fonts/MYRIADPRO-REGULAR.OTF');}
+@font-face {font-family: 'Expert Sans Regular'; src: url('../fonts/EXPERT SANS REGULAR.TTF');}
+@font-face {font-family: 'Expert Sans Bold'; src: url('../fonts/EXPERT SANS BOLD.TTF');}
+@font-face {font-family: 'Expert Sans Light'; src: url('../fonts/Expert Sans Light.ttf');}
+
+body{margin-top:0;}
+
+.left-bar{float:left; position:absolute; width:310px;  background-color:#fff; left:-2px; height:400px; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0);}
+.right-bar{float:left; position:absolute; left: 381px; width: 310px; background-color:#fff; height:400px; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0);}
+
+#intro .left-bar{width:300px;left:84px;}
+#intro .right-bar{width:378px !important;left:378px;}
+
+#intro{position:relative; width:756px; margin:250px 0 0 127px; display:block;}
+#intro .content{float:left; font-family:'Expert Sans Light'; color:#26abe2; margin:0 20px; font-size:30px;}
+#intro .content p{font-size:60px; margin-top:10px; line-height:38px;}
+#wheel-container{position:relative;}
+
+.left-bar img{float:right; width:3px; height:190px;}
+.right-bar img{width:3px; height:190px;}
+
+#intro .left-bar{}
+#intro .right-bar{}
+#intro .bar-middle{height:154px; width:6px !important;}
+#intro .bar-top{width:6px !important;}
+#intro .bar-bottom{width:6px !important;}
+
+#explore{display:none; margin-top:133px; margin-left:290px; width:100px; font-size:21px; font-family:'Expert Sans Regular'; font-weight:bold; color:#007db7; text-align: center;}
+#explore{text-decoration: none;}
+
+.intro-skip{display:none; text-decoration: none; margin-top:133px; margin-left:290px; width:100px; font-size:21px; font-family:'Expert Sans Regular'; font-weight:bold; color:#007db7; text-align: center;}
+
+.btn{float:left; line-height:1;font-size:16px;border:solid 1px #e6e6e6;padding:13px 20px;border-radius:5px;background:#ffffff;background:-moz-linear-gradient(top, #fff 54%, #f5f5f5 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(54%, #fff), color-stop(100%, #f5f5f5));background:-webkit-linear-gradient(top, #fff 54%, #f5f5f5 100%);background:-o-linear-gradient(top, #fff 54%, #f5f5f5 100%);background:-ms-linear-gradient(top, #fff 54%, #f5f5f5 100%);background:linear-gradient(to bottom, #fff 54%, #f5f5f5 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5',GradientType=0 )}
+.btn:active{box-shadow:none;color:#fff;border-color:#3d98c3;border-bottom-color:#38708a;background:#1b7fb4;background:-moz-linear-gradient(top, #1b7fb4 54%, #0d4e70 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(54%, #1b7fb4), color-stop(100%, #0d4e70));background:-webkit-linear-gradient(top, #1b7fb4 54%, #0d4e70 100%);background:-o-linear-gradient(top, #1b7fb4 54%, #0d4e70 100%);background:-ms-linear-gradient(top, #1b7fb4 54%, #0d4e70 100%);background:linear-gradient(to bottom, #1b7fb4 54%, #0d4e70 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1b7fb4', endColorstr='#0d4e70',GradientType=0 )}
+
+.clear{clear:both;}
+#intro-slide-1 p{width:562px; font-size:43px !important; text-align: center; margin-top:58px !important; margin-bottom:58px; margin-left:78px;}
+#intro-slide-2{display:none;}
+#intro-slide-2 .content p{display:none; font-size:28px; margin-top:52px; margin-bottom:52px; width:502px; margin-left:108px;}
+#intro-slide-3{display:none; margin-top:-45px;}
+#intro-slide-3 .content p{font-size:25px; margin-top:52px; margin-bottom:52px; width:502px; margin-left:108px;}
+#intro-slide-4{display:none; margin-top:-45px;}
+#intro-slide-4 .content p{display:none; margin-top: 10px; margin-bottom:10px; position: absolute; text-align: center; color: rgb(255, 255, 255); font-size: 35px; left: 287px; top: 70px;}
+#unique-asset{width:231px; margin:30px 0 30px 244px;}
+#intro-slide-5{display:none; margin-top:-60px;}
+#intro-slide-5 .content p{font-size:25px; margin-top:52px; margin-bottom:52px; width:502px; margin-left:108px;}
+#intro-slide-6{display:none; margin-top:-26px;}
+#intro-slide-6 .content p{display:none; margin-top: 10px; margin-bottom:10px; position: absolute; text-align: center; color: rgb(255, 255, 255); font-size: 35px; left: 300px; top: 113px;}
+#but-where{width:231px; margin:30px 0 30px 244px;}
+#intro-slide-7{display:none; margin-top:0px;}
+#intro-slide-7 .content p{font-size:25px; width:502px; margin-left:108px; margin-top:52px; margin-bottom:52px; display:none;}
+#start{display:none; margin-top:130px; margin-left:285px; color:#007db7; width:100px; text-decoration: none; font-family:'Expert Sans Regular'; text-align:center; font-size:21px; font-weight:bold;}
+
+.bar-middle{width:6px; background-color:#26abe2; height:80px; float:right; clear:both; border-radius:25px; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0);}
+.bar-bottom{float:right; clear:both}
+.bar-bottom img{width:6px; height:3px;}
+.bar-top img{width:6px; height:3px;}
+.bar-top{float:right;}
+
+.right-bar .bar-middle{float:none;}
+.right-bar .bar-bottom{float:none;}
+.right-bar .bar-bottom img{float:left;}
+.right-bar .bar-top{float:none;}
+.right-bar .bar-top img{float:left;}
+
+.sector-label{position:absolute; left:184px; top:100px;z-index:6; color:#fff; font-family:arial; font-size:12px;}
+
+#financing{position: absolute; left: 22px; top: 256px; width: 55px; height: 116px;}
+#risk{left: 84px; top: 139px; width: 60px; height: 82px; position:absolute;}
+#operations{position:absolute; left: 173px; top: 50px; height: 65px; width: 103px;}
+#finance{position:absolute; top: 25px; left: 328px; height: 42px; width: 82px;}
+#human-resources{position:absolute; top: 496px; left: 628px; height: 117px; width: 76px;}
+#events-and-roadshow-marketing{position:absolute;top: 40px; left: 450px; height: 76px; width: 122px;}
+#compliance{position:absolute;top: 116px; left: 589px; width: 79px; height: 94px;}
+#investment-banking-division{position:absolute;top: 379px; left: 671px; width: 50px; height: 122px;}
+#sales{position:absolute;top: 252px; left: 672px; width: 57px; height: 78px;}
+#research{position:absolute;left: 616px; top: 533px; width: 52px;}
+#trading{position:absolute;left: 500px; top: 642px; height: 53px; width: 75px;}
+#technology{position:absolute;left: 337px; top: 686px; height: 43px; width: 103px;}
+#treasury{position:absolute;top: 650px; left: 200px; width: 87px; height: 57px;}
+#prime-services{position:absolute;top: 539px; left: 81px; height: 101px; width: 101px;}
+#quantitive-analytics{position:absolute;top: 400px; left: 29px; width: 79px; height: 113px;}
+
+#info-box{left: 275px; display:none; position: absolute; top: 255px; z-index: 19;width:458px;}
+#info-box-text{ display:none; position: absolute; top: 255px; z-index: 20; color:#676c72; font-size: 24px;left: 302px; text-align: center;width: 400px; font-family:'Expert Sans Regular'}
+#wheel{display:none; width:100%; transform: translate3d(0,80px,0);-webkit-transform: translate3d(0,80px,0); webkit-backface-visibility: hidden; margin-left:6px;}
+#see-yourself-working-in{display:none;}
+#container{ height:auto; margin: 0 auto;width: 1024px; position:relative; display:block;  margin-top: 0px;}
+#see-yourself-working-in{left: 457px;position: absolute;top: 346px;width: 89px;z-index: 15; }
+#white-circle{height: 133px;left: 314px;position: absolute;top: 309px;width: 133px;z-index: 10; display:none;}
+#top-segment{width: 373px; height: 353px; position: absolute; z-index: 11; left: 353px; top:346px; display:none;}
+
+#finance-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute; width: 260px; z-index:80; left:33.5%; top:20px;}
+#finance-more-button{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute; z-index:80; left:41%;top:300px; text-decoration:none; color: #007DB7;}
+.segment-more-button{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute; z-index:80; left:41%;top:300px; text-decoration:none; color: #007DB7;font-family: 'Expert Sans Regular';font-size: 21px;font-weight: bold;}
+
+
+#risk-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+#operations-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+#human-resources-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+#event-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+#compliance-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+#investment-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+#sales-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+#research-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+#trading-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+#technology-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+#treasury-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+#prime-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+#structuring-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+#quantitive-text{margin-left: 41px; margin-top: 17px; display:none; left: 0; top:0;position: absolute;}
+
+#wheel{-webkit-background-clip:padding-box; background-clip:padding-box;}
+
+
+.middle-section{width: 378px; position: absolute; left: 190px; top: 220px; z-index: 15; display:none;}
+.screen{ width:620px; position:absolute;top:0;left:0;display:none;}
+.text{ margin-left: 25px; margin-top: 0px; padding-top: 7px; font-family:arial; color:#0ea3e4; width:570px; line-height:23px;}
+.screen .text{font-size:25px; line-height:38px; font-family:'Expert Sans Light'; color:#26abe2; }
+.screen .text{padding-top:0 !important;}
+.screen p{width:502px;margin:55px 0 55px 46px;}
+.screen .bar-middle{height:332px;}
+
+#mask{position: absolute;top: 67px;z-index: 15; display:none;}
+.more-text{ position:absolute; z-index:-1; top: 191px; left: 322px; width: 122px; height: 47px;}
+#logo{margin:25px 0 0 24px; width:153px; z-index:50; position: absolute; left: 0; top:0; }
+#logo img {width:203px;display:block; margin-top:-10px; margin-left:-10px;}
+#finance-slides{width:630px; height:900px;}
+video{margin:0 auto;}
+.slide-back{width:40px; margin-left:202px; float:left; margin-top:15px;}
+.script-back{width:40px; margin-left:202px; float:left; margin-top:15px;}
+.slide-forward{width:40px; float:left; margin-left:10px; margin-top:15px;}
+.slide-forward2{width:40px; float:left; margin-left:10px; margin-top:15px;}
+
+.middle-section{overflow:hidden;}
+.middle-section .left-bar{left:0px; top:0;}
+.middle-section .right-bar{left:303px; top:0;}
+.middle-section .bar-middle{height:314px}
+.middle-section .right-bar .bar-top img{float:left;}
+.middle-section .right-bar .bar-bottom img{float:left;}
+.middle-section .right-bar .bar-top{height:3px;}
+
+#wheel-shadow {
+display:none;
+position:absolute;
+-moz-box-shadow: 4px 4px 10px #333333;
+-webkit-box-shadow: 4px 4px 10px #333333;
+box-shadow: 4px 4px 10px #333333;
+-webkit-border-radius: 475px;
+-moz-border-radius: 475px;
+border-radius: 475px;
+top:0px;
+left:6px;
+width:752px;
+height:752px;
+z-index:-1;
+}
+
+#go-back{position:absolute; top:24px; right:24px; z-index:200; display:none; width:43px;}
+#go-to-start{position:absolute; top:690px; right:24px; z-index:200; display:none; width:42px;}
+#skip-to-film{display:none; position: absolute; left: 41.75%; z-index: 500; top: 600px; text-decoration: none; width:100px; font-size:21px; font-family:'Expert Sans Regular'; font-weight:bold; color:#007db7; text-align: center;}
+#skip-to-profile{display:none; position: absolute; left: 40.75%; z-index: 500; top: 600px; text-decoration: none; width:140px; font-size:21px; font-family:'Expert Sans Regular'; font-weight:bold; color:#007db7; text-align: center;}
+
+
+.text-interview p{width:600px; margin:16px 0; font-size:18px; line-height:25px;}
+.text-interview{line-height:25px; color:#00aeef !important;}
+.text-interview h5{font-family:'Expert Sans Bold'; font-weight:normal;}
+
+#button{position:absolute; z-index:9999; top:400px;}
+
+.transparent{width:620px; height:35px; background-color:#fff; opacity:0.6; position: absolute; top: 417px; left: 0px;}
